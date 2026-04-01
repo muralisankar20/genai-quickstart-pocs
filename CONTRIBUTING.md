@@ -114,11 +114,12 @@ Before starting work on a new feature or bug fix, please check if there is an ex
    ```bash
    git push origin feature/your-feature-name
    ```
+
 8. **Complete the Security Review process** as outlined in the **Security Guidelines** below
 
-8. **Submit a pull request**: From your fork to the main repository's `main` branch. Please include a link to the security ticket in the comments.
+9. **Submit a pull request**: From your fork to the main repository's `main` branch. Please include a link to the security ticket in the comments.
 
-9. **Code review**: Address any feedback from reviewers.
+10. **Code review**: Address any feedback from reviewers.
 
 ## Development Guidelines
 
@@ -205,6 +206,7 @@ All code should be reviewed by a Security Guardian before you create a pull requ
 3. Please attach the outputs of the security tools used in the process. 
 
 4. Please create a pull request only after the Security Guardian has approved your contribution. Please attach the URL to the ticket in the comments(See **Pull Request Process** above) 
+
 
 ## Licensing
 
