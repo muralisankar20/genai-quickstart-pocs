@@ -1,0 +1,29 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Parcel default cache directory
+.parcel-cache
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# Temp files from deployment scripts
+.tmp/
+
+# Internal tracking (not for sharing)
+PROJECT_STATUS.md
+specs/
+
+# OS
+.DS_Store
+Thumbs.db

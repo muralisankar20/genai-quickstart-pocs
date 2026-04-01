@@ -1,0 +1,29 @@
+{
+  "name": "kiro-user-dashboard",
+  "version": "1.0.0",
+  "description": "AWS CDK project for Kiro User Dashboard with QuickSight",
+  "bin": {
+    "kiro-user-dashboard": "bin/app.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "20.11.24",
+    "aws-cdk": "^2.243.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.3.3"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.243.0",
+    "cdk-nag": "^2.37.55",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.21"
+  }
+}
